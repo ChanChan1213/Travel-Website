@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.container a{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container a:hover{
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+<h3>Complain Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Argentina</option>
+      <option value="usa">Belgium</option>
+      <option value="australia">Canada</option>
+      <option value="canada">Denmark</option>
+      <option value="australia">England</option>
+      <option value="canada">Finland</option>
+      <option value="australia">Germany</option>
+      <option value="canada">Hungary</option>
+      <option value="australia">Italy</option>
+      <option value="canada">Japan</option>
+      <option value="australia">South Korea</option>
+      <option value="canada">Phillipines</option>
+      <option value="australia">USA</option>
+      <option value="canada">China</option>
+      <option value="australia">Russia</option>
+      <option value="canada">Malaysia</option>
+    </select>
+
+    <label for="subject">Subject Complain</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    <a href="file:///C:/Users/anahe/OneDrive/Desktop/Travel%20Website/Travelsite.html#">Go Back to Home</a>
+  </form>
+</div>
+
+</body>
+</html>
